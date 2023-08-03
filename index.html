@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./src/imgs/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+
+    <script defer src="./src/js/index.js"></script>
+
+    <title>Jogo Mentalista</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">M<span>e</span>n<span>t</span>a<span>l</span>i<span>s</span>t<span>a</span></h1>
+        <span class="subtitle"><em>Acerte o número secreto</em></span>
+    </header>
+
+    <main>
+        <section class="wrapper">
+
+            <span class="text">Digite um <em>número</em> de 0 a 10</span>
+
+            <input type="number" id="inp-number">
+
+            <button class="btn" id="btn-chute" onclick="chutar()">Chutar</button>
+
+            <p class="resultado"></p>
+
+            <p class="tentativas">Você só tem 3 tentativas</p>
+
+            <button class="btn btn-reload" onclick="reload()">Jogar novamente</button>
+        
+        </section>
+    </main>
+
+    <footer>Desenvolvedora da página: Paola da Costa Damasceno</footer>
+
+</body>
+</html>
